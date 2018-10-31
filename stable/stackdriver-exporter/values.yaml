@@ -40,3 +40,9 @@ web:
   path: /metrics
 
 annotations: {}
+
+gcp:
+  credentials: {}
+    # volumeName: gcp-creds
+    # mountName: /etc/gcp-creds
+    # secretName: stackdriver-exporter-creds
